@@ -1,0 +1,135 @@
+@media (min-width: 576px) {
+    .curver {
+        height: 1.5rem;
+        width: 100%;
+    }
+}
+
+.icon-list-social .icon-list-social-link {
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+}
+
+.icon-list-social {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .curver {
+        height: 2rem;
+        width: 100%;
+    }
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+
+.navbar-brand {
+    font-size: 1.8rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+    .masthead {
+        position: absolute;
+        width: 100%;
+        bottom: 20vh;
+        height: 80%;
+        z-index: -1;
+        min-height: 90vh;
+        /*background-image: url("../../images/campaign-creators-gMsnXqILjp4-unsplash.jpg");*/
+        background-size: 100%;
+        background-repeat: no-repeat;
+        filter: brightness(25%);
+    }
+}
+
+@media (max-width: 767px) {
+    .masthead {
+        position: absolute;
+        width: 100%;
+        height: 70%;
+        z-index: -1;
+        background-size: 200%;
+        background-repeat: no-repeat;
+        filter: brightness(25%);
+    }
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.header-title-container {
+    margin-top: 8rem;
+    margin-bottom: 12rem;
+    max-height: 20vh;
+}
+
+.main-content {
+    position: relative;
+}
+
+.main {
+    min-height: 100vh;
+    z-index: 1;
+    padding-top: 5rem !important;
+    background-color: #eeeeee;
+}
+
+.icon-stack {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1rem;
+    background-color: #f2f6fc;
+}
+
+.icon-stack-xl {
+    font-size: 1.75rem;
+    height: 5rem;
+    width: 5rem;
+}
+
+.icon-stack-lg {
+    font-size: 1.5rem;
+    height: 3.75rem;
+    width: 3.75rem;
+}
+
+.icon-stack-md {
+    font-size: 1.2rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.icon-stack-sm {
+    font-size: 0.6rem;
+    height: 1rem;
+    width: 1rem;
+}
+
+.background-gradient-theme {
+    background: linear-gradient(135deg, #3f51b5, #4b6cb7);
+}
+.contact-block{
+    min-height: 280px;
+}
+.text-whatsapp{
+    color:#25d366;
+}
+.text-twitter{
+    color: #55acee
+}
+.text-messenger{
+    color: #0084ff;
+}
+.font-mono
